@@ -1,0 +1,23 @@
+{% extends 'store/main.html' %}
+{% load static %}
+{% block content %}
+<title>Login</title>
+
+    <div class="container all">
+        <div class="welcome">
+            <h1>Welcome </h1>
+            <p>Get access to your Orders, Wishlist and Recommendations!</p>
+        </div>
+        <div class="signup">
+            <form method="post">
+                <h2>Login</h2>
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" value= "login">Login</button>
+                <p>Dont have accout ? <a href="{% url 'authview' %}">Go to signup </a></p>
+                
+            </form>
+            
+        </div>
+    </div>
+{% endblock content %}
