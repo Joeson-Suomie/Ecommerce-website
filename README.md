@@ -1,7 +1,7 @@
-**[]ECommerce Website**
+**[] ECommerce Website**
 Welcome to our eCommerce website, a robust and user-friendly online shopping platform designed to provide a seamless shopping experience for customers and efficient management tools for administrators.
 
-**[]Features**
+**[] Features**
 User Features
 User Registration and Login: Secure user authentication with email verification.
 Product Browsing: Browse products by categories, view product details, and read customer reviews.
@@ -63,7 +63,7 @@ python manage.py runserver
 Access the website:
 Open your browser and go to http://127.0.0.1:8000/.
 
-**[]Contributing**
+**[] Contributing**
 We welcome contributions to improve our eCommerce platform! To contribute, please follow these steps:
 
 Fork the repository.
