@@ -69,7 +69,7 @@ We welcome contributions to improve our eCommerce platform! To contribute, pleas
 Fork the repository.
 Create a new branch: git checkout -b feature/your-feature-name.
 Commit your changes: git commit -m 'Add some feature'.
-Push to the branch: git push origin feature/your-feature-name.
+Push to the branch: git push origin master.
 Create a pull request.
 
 Acknowledgements
