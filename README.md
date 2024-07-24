@@ -36,7 +36,7 @@ Clone the repository:
 
 sh
 Copy code
-git clone https://github.com/yourusername/ecommerce-website.git
+https://github.com/Joeson-Suomie/Ecommerce-website.git
 cd ecommerce-website
 Install dependencies:
 
