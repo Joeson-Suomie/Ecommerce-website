@@ -48,25 +48,26 @@ Welcome to our eCommerce website, a robust and user-friendly online shopping pla
  1. Clone the repository:
     
     git clone https://github.com/Joeson-Suomie/Ecommerce-website.git
+    ```bash
     cd ecommerce-website
 
 
-2. Install dependencies:
+3. Install dependencies:
 
     ```sh
     pip install -r requirements.txt
     Configure environment variables:
     Create a .env file in the project root and add your configuration details.
     
-3. Configure environment variables:
+4. Configure environment variables:
    Create a .env file in the project root and add your configuration details.
    
-4. Apply migrations:
+5. Apply migrations:
     
     ```sh
     python manage.py migrate
    
-5. Create a superuser:
+6. Create a superuser:
 
 
    ``` sh
@@ -74,13 +75,13 @@ Welcome to our eCommerce website, a robust and user-friendly online shopping pla
     Run the development server:
 
 
-6. Run the development server:
+7. Run the development server:
 
    
     ```sh
     python manage.py runserver
 
-7. Access the website:
+8. Access the website:
     Open your browser and go to http://127.0.0.1:8000/.
 
    
